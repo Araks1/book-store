@@ -1,19 +1,20 @@
 # book-store
 Book store spring task
 
-Environment setup
+**Environment setup**
 
-Install Java
 
-Set Java system variables
+*Install Java
 
-[Downloading Apache Maven](Downloading Apache Maven)
+*Set Java system variables
 
-Install Maven
+*[Downloading Apache Maven](Downloading Apache Maven)
 
-Download MySql
+*Install Maven
 
-Install MySql
+*Download MySql
+
+*Install MySql
 
 By default in application.properties MySQL connection parametors are username= password=
 
