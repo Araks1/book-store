@@ -15,7 +15,7 @@ Book store spring task
 
     -Install MySql
 
-By default in application.properties MySQL connection parametors are username= password=
+By default in application.properties MySQL connection parameters are username= password=
 
 **Structure**
 
@@ -25,6 +25,7 @@ By default in application.properties MySQL connection parametors are username= p
     |   └── pom.xml------------------# all maven dependencies
 
 **Run application**
+
 To run full application, run the backend side and navigate to http://localhost:8081/
 
 
