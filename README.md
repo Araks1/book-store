@@ -3,15 +3,15 @@ Book store spring task
 
 **Environment setup**
 
-    -Install Java
+    -Install Java SE8()
 
     -Set Java system variables
 
-    -Downloading Apache Maven
+    -Download Apache Maven
 
     -Install Maven
 
-    -Download MySql
+    -Download MySql(5.6>)
 
     -Install MySql
 
