@@ -1,0 +1,33 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <property name="NOW" value="UNIX_TIMESTAMP(NOW())" dbms="mysql"/>
+
+    <changeSet id="1" author="Araqs Shahbazyan" runOnChange="true">
+        <comment>Book store db</comment>
+
+
+        <sql>
+            SET foreign_key_checks = 0;
+            DROP TABLE IF EXISTS `book`;
+            SET foreign_key_checks = 1;
+        </sql>
+
+        <!--Book table -->
+        <createTable tableName="book">
+            <column name="id" type="int" autoIncrement="true">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="author" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="title" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+</databaseChangeLog>
