@@ -7,7 +7,7 @@ Book store spring task
 
     -Set Java system variables
 
-    -[Downloading Apache Maven
+    -Downloading Apache Maven
 
     -Install Maven
 
